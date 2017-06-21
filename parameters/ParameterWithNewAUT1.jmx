@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.8" jmeter="2.13 r1665067">
+  <hashTree>
+    <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Parameter Data" enabled="true">
+      <stringProp name="delimiter">,</stringProp>
+      <stringProp name="fileEncoding"></stringProp>
+      <stringProp name="filename">data.csv</stringProp>
+      <boolProp name="quotedData">false</boolProp>
+      <boolProp name="recycle">true</boolProp>
+      <stringProp name="shareMode">shareMode.all</stringProp>
+      <boolProp name="stopThread">false</boolProp>
+      <stringProp name="variableNames">name,lastName,email,password,confirmPassword</stringProp>
+    </CSVDataSet>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
